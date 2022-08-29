@@ -9,7 +9,7 @@ while len(names)<max_length:
 #for i in range(len(names)):
  #    names[i]=names[i].lower()
 selected_names=input("names")
-if selected_names in cleaned_names:
+if selected_names in names:
     print ("True. The name is in the list")
 else:
     print("False. The name cannot be found in the list")
